@@ -2,4 +2,4 @@
 
 
 
-Arcade game with python
+Jeux d'arcade réaliser avec pygame
