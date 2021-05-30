@@ -35,7 +35,7 @@ largeur_crabe = 50
 
 
 surface = pygame.display.set_mode((surfaceL,surfaceH))
-pygame.display.set_caption("Projet.Isn")
+pygame.display.set_caption("Krabby")
 clock = pygame.time.Clock()
 
 ocean = pygame.image.load("fondd.jpg").convert_alpha()
@@ -150,13 +150,13 @@ def game_intro():
                 
     
         GOTexte = pygame.font.Font('freesansbold.ttf',115)
-        GOTextSurf, GOTextRect = creaTexteObj("ISN", GOTexte)
+        GOTextSurf, GOTextRect = creaTexteObj("Krabby", GOTexte)
         GOTextRect.center = ((surfaceL/2),(surfaceH/2)) 
         surface.blit(GOTextSurf, GOTextRect)
 
 
-        button("Play",150,450,100,50,green,bright_green,"play")
-        button("Quit",550,450,100,50,black,bright_red,"quit")
+        button("Jouer",150,450,100,50,green,bright_green,"play")
+        button("Quitter",550,450,100,50,black,bright_red,"quit")
 
         
 
