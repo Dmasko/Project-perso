@@ -17,8 +17,8 @@ pygame.init()
 
 
 
-crash_son = pygame.mixer.Sound("crash.wav")
-pygame.mixer.music.load("Music.wav")
+crash_son = pygame.mixer.Sound("data/crash.wav")
+pygame.mixer.music.load("data/Music.wav")
 
 
 
@@ -38,10 +38,10 @@ surface = pygame.display.set_mode((surfaceL,surfaceH))
 pygame.display.set_caption("Krabby")
 clock = pygame.time.Clock()
 
-ocean = pygame.image.load("fondd.jpg").convert_alpha()
-img = pygame.image.load("Skate.png").convert_alpha()
-img_a = pygame.image.load("asteroideA.png").convert_alpha()
-img_b = pygame.image.load("asteroideA.png").convert_alpha()
+ocean = pygame.image.load("data/fondd.jpg").convert_alpha()
+img = pygame.image.load("data/Skate.png").convert_alpha()
+img_a = pygame.image.load("data/asteroideA.png").convert_alpha()
+img_b = pygame.image.load("data/asteroideA.png").convert_alpha()
 
 
 def score(compte):
